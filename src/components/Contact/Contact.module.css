@@ -1,0 +1,41 @@
+.contactItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.contactItem:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.personContact {
+  text-align: left;
+  font-weight: 500;
+  font-size: 20px;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  text-shadow: 1px 0 10px #c7d2dc;
+}
+
+.deleteBtn {
+  border-radius: 10px;
+  padding: 4px 8px;
+  /* padding: 8px 16px; */
+  background-color: #c7d2dc;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 4px 12px #212121;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.deleteBtn:hover {
+  color: #fff;
+  text-shadow: 1px 0 10px #d8e4eb;
+  background-color: #ff9a9a;
+  box-shadow: 0px 4px 12px #fff;
+  letter-spacing: 0.5px;
+  transform: scale(1.06);
+}

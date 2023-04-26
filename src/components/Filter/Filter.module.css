@@ -1,0 +1,18 @@
+.filterLabel {
+  margin-top: -20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-weight: 500;
+  font-size: 22px;
+  letter-spacing: 0.5px;
+  text-shadow: 1px 0 10px #c7d2dc;
+}
+
+.filterInput {
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  font-size: 22px;
+  color: #3a3a3a;
+}
